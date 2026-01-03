@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #6f42c1;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .livros {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .livro {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .livro h3 {
+            margin: 0;
+        }
+
+        .livro p {
+            margin: 8px 0;
+        }
+
+        .status {
+            font-weight: bold;
+            color: green;
+        }
+
+        .indisponivel {
+            color: red;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px;
+            background: #6f42c1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #6f42c1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Biblioteca Central</h1>
+    <p>Consulta de livros</p>
+</header>
+
+<div class="container">
+    <div class="livros">
+
+        <div class="livro">
+            <h3>Banco de Dados</h3>
+            <p>Autor: Silberschatz</p>
+            <p class="status">Disponível</p>
+            <button>Reservar</button>
+        </div>
+
+        <div class="livro">
+            <h3>Algoritmos</h3>
+            <p>Autor: Cormen</p>
+            <p class="status indisponivel">Indisponível</p>
+            <button>Reservar</button>
+        </div>
+
+        <div class="livro">
+            <h3>Programação em C</h3>
+            <p>Autor: Deitel</p>
+            <p class="status">Disponível</p>
+            <button>Reservar</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 - Biblioteca</p>
+</footer>
+
+</body>
+</html>
