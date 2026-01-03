@@ -1,0 +1,19 @@
+# Biblioteca Central
+
+Este é um projeto simples de uma **Biblioteca Virtual** desenvolvido em **HTML e CSS**, que permite visualizar livros disponíveis e indisponíveis e inclui botões para reserva (simulados, sem funcionalidade real).
+
+## 📖 Funcionalidades
+
+- Exibição de livros com título, autor e status (Disponível ou Indisponível).
+- Botão de **Reservar** para cada livro.
+- Layout responsivo com design limpo e moderno.
+- Destaque visual para livros disponíveis (verde) e indisponíveis (vermelho).
+
+## 💻 Tecnologias Utilizadas
+
+- **HTML5** – Estrutura da página.
+- **CSS3** – Estilo e layout.
+- Flexbox para organizar os livros em cards responsivos.
+
+## 🖼️ Estrutura do Projeto
+
